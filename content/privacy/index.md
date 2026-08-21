@@ -2,6 +2,7 @@
 title: プライバシーについて
 slug: privacy
 draft: false
+disableShare: true
 url: /privacy/
 ---
 
