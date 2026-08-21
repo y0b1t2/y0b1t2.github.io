@@ -27,7 +27,7 @@ categories:
 
 以下、２０２６年第１四半期の目標の反省です。
 
-{{< linkcard url="https://yobitz.hatenablog.com/entry/2025/12/29/114754" >}}
+{{< linkcard url="/posts/2026-01-01/" title="２０２６年第１四半期の目標" >}}
 
 ## １．趣味：新人賞に応募する。
 

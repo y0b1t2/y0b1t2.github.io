@@ -34,7 +34,7 @@ cover:
 
 ### ペン
 
-2025年4月から十年日記を付けております。そこで使っているのがこの**[三菱鉛筆 uniball ZENTO Sigunitureモデル](https://www.mpuni.co.jp/products/ballpoint_pens/roller/zento/ubzh.html)**。
+2025年4月から十年日記を付けております。そこで使っているのがこの<strong>[三菱鉛筆 uniball ZENTO Sigunitureモデル](https://www.mpuni.co.jp/products/ballpoint_pens/roller/zento/ubzh.html)</strong>。
 
 ![ペンと十年日記](20251226082641.jpg)
 
@@ -53,7 +53,7 @@ cover:
 
 ### 食洗機
 
-暮らしの崩壊はシンクからやってきます。洗われないまま溜まった食器は、次の食器を洗う気力を削ぎ、あとは雪だるま式に全てが崩壊します。黙って食洗機を買え！！！　ということで、**Panasonic「[SOLOTA](https://panasonic.jp/dish/products/NP-TML1.html)」**を導入しました。
+暮らしの崩壊はシンクからやってきます。洗われないまま溜まった食器は、次の食器を洗う気力を削ぎ、あとは雪だるま式に全てが崩壊します。黙って食洗機を買え！！！　ということで、<strong>Panasonic「[SOLOTA](https://panasonic.jp/dish/products/NP-TML1.html)」</strong>を導入しました。
 
 ![食洗機](20250924191930.jpg)
 
@@ -61,7 +61,7 @@ cover:
 
 ### スマートスピーカー＆ダクトレール
 
-私は部屋のオートメーション化を推し進めておりまして、声で部屋のオブジェクト（ライト、エアコン、カーテン、サーキュレーター……）を操作しています。その要石になるのがこの**[ダクトレール](https://www.amazon.co.jp/dp/B081H3K85M)に吊るされた[Amazon Echo](https://www.amazon.co.jp/dp/B085FVY6KW)[^1]**。
+私は部屋のオートメーション化を推し進めておりまして、声で部屋のオブジェクト（ライト、エアコン、カーテン、サーキュレーター……）を操作しています。その要石になるのがこの<strong>[ダクトレール](https://www.amazon.co.jp/dp/B081H3K85M)に吊るされた[Amazon Echo](https://www.amazon.co.jp/dp/B085FVY6KW)[^1]</strong>。
 
 机とかに置くとけっこう邪魔なんですが天井に吊るしておけば場所も取らないし、天井のスピーカーから音楽を鳴らすと部屋がカフェになるのでウケます。
 
@@ -71,7 +71,7 @@ cover:
 
 私、入浴しながら読書するのが趣味なんですよね。風呂読書用の端末選びって難しくて、①デカすぎない（デカいと持ちにくいので）、②高価すぎない（風呂で端末が死んだときに泣きたくないので）、③ヘボすぎない（読書のためのhontoアプリって意外とスペックを要求するので）の3つが求められる。それに加えて、ガジェット選びの観点からは個人的には④OSはAndroid、⑤台数が出ている、も加えたくて。
 
-本当は7インチくらいでいいのだが、いまの市場って7インチタブレットが存在しないので、妥協の8インチ。その他諸々のバランスを勘案して、**HEADWOLFの[FPad 7 Pro](https://www.headwolf.net/product/detail?code=F7)**が選ばれました[^2]。読書用の端末として一切の不満がないのですごい。
+本当は7インチくらいでいいのだが、いまの市場って7インチタブレットが存在しないので、妥協の8インチ。その他諸々のバランスを勘案して、<strong>HEADWOLFの[FPad 7 Pro](https://www.headwolf.net/product/detail?code=F7)</strong>が選ばれました[^2]。読書用の端末として一切の不満がないのですごい。
 
 ![FPad 7 Proとペン](20251226181039.jpg)
 

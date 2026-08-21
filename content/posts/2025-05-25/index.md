@@ -86,7 +86,7 @@ BlueskyとMastodonのいずれか一方だけでも以下の手順で対応可�
 #### 1-1. GitHubでプライベートリポジトリを作成
 
 1. GitHub.comにログイン
-2. 「+」ボタン → **「New repository」**をクリック
+2. 「+」ボタン → <strong>「New repository」</strong>をクリック
 3. リポジトリ設定:
 
    ```
@@ -95,7 +95,7 @@ BlueskyとMastodonのいずれか一方だけでも以下の手順で対応可�
    ✅ Private（重要！投稿内容を保護）
    ✅ Add a README file
    ```
-4. **「Create repository」**をクリック
+4. <strong>「Create repository」</strong>をクリック
 
 #### 1-2. Obsidian Git プラグインでリポジトリを連携
 
@@ -143,7 +143,7 @@ Expiration: 1 year（任意に設定可能）
 
 #### 3-3. トークンを保存
 
-1. **「Generate token」**をクリック
+1. <strong>「Generate token」</strong>をクリック
 2. トークンをコピー（ghp_で始まる）
 3. 安全な場所にメモ保存（一度しか表示されません）
 
@@ -200,7 +200,7 @@ Secret: [Mastodonのアクセストークン]
 #### 5-1. GitHub上で直接作成
 
 1. GitHubリポジトリページを開く
-2. 「Add file」ボタン → **「Create new file」**をクリック
+2. 「Add file」ボタン → <strong>「Create new file」</strong>をクリック
 3. ファイル名を入力: .github/workflows/unified-social-sync.yml
 
 #### 5-2. 重要：カスタマイズが必要な箇所
@@ -235,14 +235,14 @@ git add Daily/Social/
 1. カスタマイズが完了したら
 2. 「Commit new file」ボタンをクリック
 3. コミットメッセージ: Setup unified social sync workflow
-4. **「Commit new file」**をクリックして確定
+4. <strong>「Commit new file」</strong>をクリックして確定
 
 ### ステップ6: 初回実行とテスト
 
 #### 6-1. GitHub Actionsで手動実行
 
 1. GitHubリポジトリ → 「Actions」タブ
-2. **「Unified Social Media to Obsidian Sync」**を選択
+2. <strong>「Unified Social Media to Obsidian Sync」</strong>を選択
 3. 「Run workflow」ボタンをクリック
 4. Force full sync: falseのまま実行
 

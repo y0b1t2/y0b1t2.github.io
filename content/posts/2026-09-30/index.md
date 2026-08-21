@@ -23,7 +23,7 @@ categories:
 
 次の見直しは２０２６年９月末です。
 
-{{< linkcard url="https://yobitz.hatenablog.com/entry/2026/03/31/220242" >}}
+{{< linkcard url="/posts/2026-06-30/" title="２０２６年第２四半期の目標" >}}
 
 以下、２０２６年第１四半期の目標の反省です。
 

@@ -33,9 +33,9 @@ categories:
 
 『負けヒロインが多すぎる！』に猛烈に情熱を注いでいた一ヶ月でした。聖地巡礼の記事は、2024年10月31日時点でGoogle検索「負けヒロインが多すぎる　聖地巡礼」で1ページ目に出てくるようです。この記事は、現地を歩いて回ったおかげで得られた洞察を記したことに価値があると思っております。
 
-{{< linkcard url="https://yobitz.hatenablog.com/entry/2024/10/13/213019" >}}
+{{< linkcard url="/posts/2024-10-13/" title="241013 『負けヒロインが多すぎる！』聖地巡礼 in 豊橋&豊川" >}}
 
-{{< linkcard url="https://yobitz.hatenablog.com/entry/2024/10/22/052715" >}}
+{{< linkcard url="/posts/2024-10-22/" title="241022 『負けヒロインが多すぎる！』シリーズの結末について考えてみた。" >}}
 
 10月の一冊は『負けヒロインが多すぎる！（6）』、一枚は『Face to Face』（Gary Burton）。
 

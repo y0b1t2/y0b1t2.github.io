@@ -127,6 +127,6 @@ categories:
 
 ジャズを100枚聴くまでの記録はこちら。
 
-{{< linkcard url="https://yobitz.hatenablog.com/entry/2024/09/23/105542" >}}
+{{< linkcard url="/posts/2024-09-23/" title="240923 ジャズ100枚聴いた。" >}}
 
 （おわり）

@@ -12,6 +12,6 @@ cover:
 
 ![](20241213212740.png)
 
-{{< linkcard url="https://yobitz.hatenablog.com/entry/2024/09/28/091108" >}}
+{{< linkcard url="/posts/2024-09-28/" title="240928 ライトノベルの新人賞への応募が完了しました。" >}}
 
 今後とも応援よろしくお願いします。

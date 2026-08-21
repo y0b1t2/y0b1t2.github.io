@@ -135,7 +135,7 @@ categories:
 
 ## 『ジャズ超名盤研究』（小川隆夫）
 
-今年からジャズを聴き始めました（詳細は[こちらの記事](https://yobitz.hatenablog.com/entry/2023/11/29/225456)）。その教科書です。
+今年からジャズを聴き始めました（詳細は[こちらの記事](/posts/2023-11-29-2/)）。その教科書です。
 
 {{< amazon asin="4401646053" title="ジャズ超名盤研究" author="小川 隆夫" image="https://m.media-amazon.com/images/I/51mh8O9QKnL._SL500_.jpg" >}}
 

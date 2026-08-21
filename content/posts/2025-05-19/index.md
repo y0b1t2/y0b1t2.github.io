@@ -59,7 +59,7 @@ categories:
 
 馬剃さんの勇気の一端がわかります。いや、すごいんやて。
 
-{{< linkcard url="https://yobitz.hatenablog.com/entry/2024/10/13/213019" >}}
+{{< linkcard url="/posts/2024-10-13/" title="241013 『負けヒロインが多すぎる！』聖地巡礼 in 豊橋&豊川" >}}
 
 追々々記（2025/05/20朝）
 

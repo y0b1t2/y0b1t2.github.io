@@ -12,8 +12,11 @@
 {{- $title := .Get "title" | default "" -}}
 {{- $host := "" -}}
 {{- with urls.Parse $url }}{{ $host = .Host }}{{ end -}}
+{{- $internal := not $host -}}
 {{- if not $title }}{{ $title = $url }}{{ end -}}
-<a class="linkcard" href="{{ $url }}" target="_blank" rel="noopener">
+{{- if $internal }}{{ $host = site.Title }}{{ end -}}
+<a class="linkcard{{ if $internal }} linkcard--internal{{ end }}" href="{{ $url }}"
+   {{- if not $internal }} target="_blank" rel="noopener"{{ end }}>
   <span class="linkcard__title">{{ $title }}</span>
   {{- with $host }}<span class="linkcard__host">{{ . }}</span>{{ end -}}
 </a>

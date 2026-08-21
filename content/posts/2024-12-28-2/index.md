@@ -32,4 +32,4 @@ categories:
    2. 中国語の生の情報にアクセスできるようにするために、まずHSK1級を取得する。
 **未達成。三週間で諦めた。**
 
-{{< linkcard url="https://yobitz.hatenablog.com/entry/2023/12/31/113720" >}}
+{{< linkcard url="/posts/2023-12-31-2/" title="2024年の目標" >}}
