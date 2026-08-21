@@ -13,7 +13,7 @@ cover:
 
 デイリーポータルZが独立するらしいので、「はげます会」（月額1100円）に入会しました。
 
-![「はげます会」に入ってるよ。](20231222230056.png)
+{{< caption `「はげます会」に入ってるよ。` >}}![](20231222230056.png){{< /caption >}}
 
 {{< linkcard url="https://dailyportalz.jp/dpq/kaisha-kawaruyo" >}}
 

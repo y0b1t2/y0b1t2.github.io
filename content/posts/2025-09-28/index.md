@@ -11,6 +11,6 @@ cover:
   hiddenInSingle: true
 ---
 
-![応募画面](20250928212030.png)
+{{< caption `応募画面` >}}![](20250928212030.png){{< /caption >}}
 
 後は野となれ山となれ。
