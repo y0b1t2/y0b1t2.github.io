@@ -9,8 +9,13 @@
   アソシエイトの規約に反する。http(s) で始まる宛先はそのまま素通りさせる。
 
   width/height を必ず書くのは、読み込み中に本文が飛び跳ねないため（CLS）。
-  最初の1枚だけ eager にしてあるのは、それが画面上部＝表示速度の測定対象
-  （LCP）になるから。lazy にすると自分で自分を遅くすることになる。
+
+  全部 lazy にしてある。1枚目だけ eager にしたかったが、.Ordinal は
+  RenderString のたびに0へ戻るので使えない。キャプション付きの画像は
+  1枚ずつ別の RenderString を通るため、96枚すべてが「1枚目」になり、
+  15枚並ぶ記事では15枚が同時に先読みされていた。
+  画面のすぐ下にある画像はブラウザが lazy でも即座に取りに行くので、
+  表示速度（LCP）への影響はほとんどない。
 */ -}}
 
 {{- $dest := .Destination -}}
@@ -47,9 +52,7 @@
        width="{{ $largest.Width }}" height="{{ $largest.Height }}"
        alt="{{ $alt }}"
        {{ with .Title }}title="{{ . }}" {{ end -}}
-       loading="{{ if eq .Ordinal 0 }}eager{{ else }}lazy{{ end }}"
-       {{ if eq .Ordinal 0 }}fetchpriority="high" {{ end -}}
-       decoding="async">
+       loading="lazy" decoding="async">
 
 {{- else -}}
   {{- /* 遠隔・GIF・SVG・見つからないもの。素のまま出す。 */ -}}
