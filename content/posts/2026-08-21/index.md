@@ -20,6 +20,8 @@ cover:
 > さよならだけが人生だ。
 > <p class="右">井伏鱒二</p>
 引用終わり
+{{< linkcard url="https://fedibird.com/@y0b1t2/117115879838769732" title="感謝……" >}}
+
 
 
 <p class="右">（おわり）</p>
