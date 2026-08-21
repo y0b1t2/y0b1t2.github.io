@@ -66,6 +66,11 @@ summaryLength = 70
     url = 'https://fedibird.com/@y0b1t2'
 
   [[params.socialIcons]]
+    name = 'bluesky'
+    url = 'https://bsky.app/profile/y0b1t2.bsky.social'
+
+  # mixi2 has no icon in PaperMod; it stays a link on the about page.
+  [[params.socialIcons]]
     name = 'rss'
     url = 'index.xml'
 
