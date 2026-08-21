@@ -1,0 +1,36 @@
+{{- /*
+  Share buttons, replacing PaperMod's set.
+
+  The theme offers x, linkedin, reddit, facebook, whatsapp, telegram and
+  ycombinator, and neither of the two networks this blog actually lives on.
+  So the list is written out here instead: Mastodon, Bluesky, X. The icons are
+  still the theme's own, so they match the ones in the header.
+
+  Mastodon has no single share URL — every reader is on a different server, and
+  only they know which. The button asks once and remembers the answer in their
+  own browser; see assets/js/share.js.
+*/ -}}
+{{- $url := .Permalink -}}
+{{- $text := printf "%s | %s" .Title site.Title -}}
+<ul class="share-buttons">
+  <li>
+    <button type="button" class="share-mastodon" data-share-url="{{ $url }}" data-share-text="{{ $text }}"
+            aria-label="Mastodon で共有" title="Mastodon で共有">
+      {{- partial "svg.html" (dict "name" "mastodon") -}}
+    </button>
+  </li>
+  <li>
+    <a target="_blank" rel="noopener noreferrer" aria-label="Bluesky で共有" title="Bluesky で共有"
+       href="https://bsky.app/intent/compose?text={{ printf "%s %s" $text $url | urlquery }}">
+      {{- partial "svg.html" (dict "name" "bluesky") -}}
+    </a>
+  </li>
+  <li>
+    <a target="_blank" rel="noopener noreferrer" aria-label="X で共有" title="X で共有"
+       href="https://x.com/intent/tweet?text={{ $text | urlquery }}&amp;url={{ $url | urlquery }}">
+      {{- partial "svg.html" (dict "name" "x") -}}
+    </a>
+  </li>
+</ul>
+{{- $js := resources.Get "js/share.js" | minify | fingerprint -}}
+<script defer src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}" crossorigin="anonymous"></script>

@@ -202,6 +202,32 @@
   --ink-mark: rgba(255, 213, 79, 0.26);
 }
 
+/* Share buttons. The theme sizes the icons it ships with inline and styles
+   only `a`; these come from svg.html, and Mastodon's is a button because it
+   has to ask the reader which server they are on. */
+.share-buttons svg {
+  width: 26px;
+  height: 26px;
+}
+
+.share-buttons button {
+  display: inline-flex;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+.share-buttons li:not(:last-child) {
+  margin-inline-end: 12px;
+}
+
+/* Whole-block alignment, for the `（おわり）` at the end of a story. */
+.右, .align-right { text-align: right; }
+.中央, .align-center { text-align: center; }
+.左, .align-left { text-align: left; }
+
 .赤, .c-red { color: var(--ink-red); }
 .青, .c-blue { color: var(--ink-blue); }
 .緑, .c-green { color: var(--ink-green); }

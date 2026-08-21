@@ -67,7 +67,9 @@ summaryLength = 70
   amazonAssociateTag = 'yoshizaki1029-22'
   defaultTheme = 'auto'
   ShowReadingTime = true
-  ShowShareButtons = false
+  # Rendered by layouts/_partials/share_icons.html — Mastodon, Bluesky, X.
+  # A single post can opt out with `disableShare: true`.
+  ShowShareButtons = true
   ShowPostNavLinks = true
   ShowBreadCrumbs = true
   ShowCodeCopyButtons = true
