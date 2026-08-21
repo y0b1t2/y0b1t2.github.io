@@ -13,18 +13,7 @@ url: /about/
 ## 書いている人
 
 よしざき
-
 - Mastodon: <https://fedibird.com/@y0b1t2>
 - Bluesky: <https://bsky.app/profile/y0b1t2.bsky.social>
 - mixi2: <https://mixi.social/@y0b1t2>
 - mail: yoshizaki.kenroh[at]gmail.com
-
-## カテゴリ
-
-| カテゴリ名    |        |
-| -------- | ------ |
-| 01_月報    | 月々のこと  |
-| 02_日記    | 日々のこと  |
-| 03_創作    | 書くこと   |
-| 04_オタク語り | 語るべきこと |
-| 05_テック   | 技術のこと  |
