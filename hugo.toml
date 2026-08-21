@@ -83,7 +83,7 @@ summaryLength = 70
 
   [params.homeInfoParams]
     Title = '箱庭療法記'
-    Content = 'みんなそれぞれ自分のようになるんです。<br>小説を読んだり書いたりしています。'
+    Content = 'みんなそれぞれ自分のようになるんです。'
 
   [[params.socialIcons]]
     name = 'mastodon'
