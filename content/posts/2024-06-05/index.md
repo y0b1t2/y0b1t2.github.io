@@ -4,7 +4,7 @@ date: '2024-06-05T21:46:21+09:00'
 slug: '2024-06-05'
 draft: false
 categories:
-- 02_日記
+- 日記
 cover:
   image: https://m.media-amazon.com/images/I/416AfGYs5WL._SL500_.jpg
   hiddenInSingle: true

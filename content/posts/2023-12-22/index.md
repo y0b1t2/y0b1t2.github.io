@@ -4,7 +4,7 @@ date: '2023-12-22T23:01:22+09:00'
 slug: '2023-12-22'
 draft: false
 categories:
-- 02_日記
+- 日記
 cover:
   image: 20231222230056.png
   relative: true

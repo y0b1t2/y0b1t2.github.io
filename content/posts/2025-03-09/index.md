@@ -4,7 +4,7 @@ date: '2025-03-09T07:37:15+09:00'
 slug: '2025-03-09'
 draft: false
 categories:
-- 03_創作
+- 創作
 cover:
   image: https://m.media-amazon.com/images/I/41BaAEAMKyL._SL500_.jpg
   hiddenInSingle: true

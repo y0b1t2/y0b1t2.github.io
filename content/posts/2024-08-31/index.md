@@ -4,7 +4,7 @@ date: '2024-08-31T23:08:04+09:00'
 slug: '2024-08-31'
 draft: false
 categories:
-- 01_月報
+- 月報
 cover:
   image: 20240831230707.png
   relative: true

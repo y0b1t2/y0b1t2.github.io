@@ -4,7 +4,7 @@ date: '2023-12-28T20:19:10+09:00'
 slug: '2023-12-28'
 draft: false
 categories:
-- 02_日記
+- 日記
 cover:
   image: https://m.media-amazon.com/images/I/51U0JIcFS+L._SL500_.jpg
   hiddenInSingle: true

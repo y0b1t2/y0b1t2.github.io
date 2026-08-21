@@ -4,7 +4,7 @@ date: '2023-12-31T11:00:00+09:00'
 slug: '2023-12-31'
 draft: false
 categories:
-- 01_月報
+- 月報
 cover:
   image: 20231231114937.png
   relative: true

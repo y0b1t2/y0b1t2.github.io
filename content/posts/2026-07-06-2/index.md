@@ -4,7 +4,7 @@ date: '2026-07-06T22:27:41+09:00'
 slug: 2026-07-06-2
 draft: false
 categories:
-- 02_日記
+- 日記
 cover:
   image: 20260627102322.jpg
   relative: true

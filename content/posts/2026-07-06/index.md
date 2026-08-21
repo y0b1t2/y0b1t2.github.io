@@ -4,7 +4,7 @@ date: '2026-07-06T21:40:30+09:00'
 slug: '2026-07-06'
 draft: false
 categories:
-- 01_月報
+- 月報
 cover:
   image: 20260701235513.jpg
   relative: true
