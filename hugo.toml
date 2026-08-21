@@ -23,7 +23,7 @@ summaryLength = 70
 # emitted at all. PaperMod only includes it in production builds, so `hugo
 # server` never sends anything.
 [services.googleAnalytics]
-  ID = ''
+  ID = 'G-DBB85T2FQP'
 
 [privacy.googleAnalytics]
   respectDoNotTrack = true
