@@ -11,7 +11,17 @@
   browser sitting on that page, wrong in a feed reader. RenderString resolves
   it to the bundle exactly as an uncaptioned image would be.
 */ -}}
+{{- $img := .Page.RenderString .Inner -}}
+{{- /*
+  An img with no alt at all is announced by its filename; alt="" tells a
+  screen reader to skip straight to the caption. Hugo's image render hook
+  writes no attribute when the alt is empty, so it is added here — and only
+  here, where a figcaption is present to describe the picture instead.
+*/ -}}
+{{- if not (strings.Contains $img "alt=") -}}
+  {{- $img = replace $img "<img " "<img alt=\"\" " | safeHTML -}}
+{{- end -}}
 <figure class="post-figure">
-  {{- .Page.RenderString .Inner -}}
+  {{- $img -}}
   {{- with .Get 0 }}<figcaption>{{ . | markdownify }}</figcaption>{{ end -}}
 </figure>
