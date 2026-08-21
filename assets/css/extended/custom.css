@@ -1,6 +1,15 @@
 /* Styles for the shortcodes that replaced Hatena's embeds. Colours come from
    PaperMod's variables so light and dark themes both work. */
 
+/* PaperMod's reset says `img { display: block; max-width: 100% }` and stops
+   there. That was fine while images carried no dimensions, but the render hook
+   now writes width= and height= on every one so the text stops jumping as they
+   load. Without this line the width shrinks to fit a narrow screen while the
+   height attribute stays put, and every photo comes out stretched tall. */
+img {
+  height: auto;
+}
+
 .amazon-card {
   display: flex;
   gap: 16px;
