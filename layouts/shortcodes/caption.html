@@ -1,0 +1,17 @@
+{{- /*
+  An image with a caption under it.
+
+  {{< caption `キャプション` >}}![説明](写真.jpg){{< /caption >}}
+
+  Written by the exporter, not by hand: in the vault a caption is a line of
+  italics under the image, which is how one looks in Obsidian's own preview.
+
+  RenderString rather than markdownify. markdownify drops the page context, and
+  the image render hook then leaves src relative to the post — right in a
+  browser sitting on that page, wrong in a feed reader. RenderString resolves
+  it to the bundle exactly as an uncaptioned image would be.
+*/ -}}
+<figure class="post-figure">
+  {{- .Page.RenderString .Inner -}}
+  {{- with .Get 0 }}<figcaption>{{ . | markdownify }}</figcaption>{{ end -}}
+</figure>

@@ -218,12 +218,22 @@ mark {
   color: inherit;
 }
 
-/* Migrated entries lean on captions; Hatena rendered them under the image. */
-.post-content figure figcaption,
-.post-content img + em {
-  display: block;
-  margin-top: 6px;
+/* An image with a line of italics under it, which the exporter turns into a
+   figure. `img + em` used to be here too, for the shape hardWraps actually
+   produces — but hardWraps puts a <br> between the two, so the selector never
+   matched anything and no post ever had a caption. */
+.post-content .post-figure {
+  margin: 24px 0;
+}
+
+.post-content .post-figure img {
+  margin: 0 auto;
+}
+
+.post-content figcaption {
+  margin-top: 8px;
   font-size: 0.85em;
+  line-height: 1.6;
   color: var(--secondary);
   text-align: center;
 }
