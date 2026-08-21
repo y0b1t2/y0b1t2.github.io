@@ -7,9 +7,8 @@ url: /about/
 
 小説を読んだり書いたりしています。
 
-> 一心不乱に、オレのイノチを打ちこんだ仕事をやりとげればそれでいいのだ。目玉がフシアナ同然の奴らのメガネにかなわなくとも、それがなんだ。オレが刻んだ仏像を道のホコラに安置して、その下に穴を掘って、土に埋もれて死ぬだけのことだ
->
-> — 坂口安吾「夜長姫と耳男」
+>一心不乱に、オレのイノチを打ちこんだ仕事をやりとげればそれでいいのだ。目玉がフシアナ同然の奴らのメガネにかなわなくとも、それがなんだ。オレが刻んだ仏像を道のホコラに安置して、その下に穴を掘って、土に埋もれて死ぬだけのことだ
+> <p class="右">坂口安吾「夜長姫と耳男」</p>
 
 ## 書いている人
 
@@ -18,7 +17,7 @@ url: /about/
 - Mastodon: <https://fedibird.com/@y0b1t2>
 - Bluesky: <https://bsky.app/profile/y0b1t2.bsky.social>
 - mixi2: <https://mixi.social/@y0b1t2>
-- mail: <yoshizaki.kenroh[at]gmail.com>
+- mail: yoshizaki.kenroh[at]gmail.com
 
 ## カテゴリ
 
