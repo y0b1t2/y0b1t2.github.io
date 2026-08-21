@@ -7,6 +7,9 @@ categories:
 - 04_オタク語り
 mastodon: https://fedibird.com/@y0b1t2/117131541490723829
 bluesky: https://bsky.app/profile/y0b1t2.bsky.social/post/3mtkvl3m44c2i
+cover:
+  image: https://m.media-amazon.com/images/I/51eTZYQbu8L._SL500_.jpg
+  hiddenInSingle: true
 ---
 
 **『あそびのかんけい』（葵せきな）を読んで、感動しました**ので、フレッシュなうちにメモや思いつきを書き残しておきます。数時間後には4巻も出ることだしね。既読前提で、殴り書き的に残します。
