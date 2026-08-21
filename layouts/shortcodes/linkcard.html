@@ -1,0 +1,19 @@
+{{- /*
+  Link card, replacing Hatena's hatenablog-parts.com embed iframe.
+
+  {{< linkcard url="https://example.com/entry" >}}
+  {{< linkcard url="https://example.com/entry" title="記事タイトル" >}}
+
+  The Hatena embed carried no title in the exported HTML, so the domain is the
+  default label. Pass title= to give a card a proper heading; nothing needs
+  re-migrating to do that.
+*/ -}}
+{{- $url := .Get "url" | default "" -}}
+{{- $title := .Get "title" | default "" -}}
+{{- $host := "" -}}
+{{- with urls.Parse $url }}{{ $host = .Host }}{{ end -}}
+{{- if not $title }}{{ $title = $url }}{{ end -}}
+<a class="linkcard" href="{{ $url }}" target="_blank" rel="noopener">
+  <span class="linkcard__title">{{ $title }}</span>
+  {{- with $host }}<span class="linkcard__host">{{ . }}</span>{{ end -}}
+</a>

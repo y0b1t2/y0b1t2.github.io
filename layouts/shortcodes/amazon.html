@@ -1,0 +1,37 @@
+{{- /*
+  Amazon product card, replacing Hatena's hatena-asin-detail block.
+
+  {{< amazon asin="B0BP6HDZV2" title="半導体戦争" author="クリス・ミラー"
+             image="https://m.media-amazon.com/images/I/51yRZbrAudL._SL500_.jpg" >}}
+
+  The image stays hot-linked from m.media-amazon.com: the Associates terms
+  allow linking to those URLs but not re-hosting them. rel="sponsored" marks
+  the affiliate link, and the 広告 badge is the ステマ規制 disclosure.
+*/ -}}
+{{- $asin := .Get "asin" | default "" -}}
+{{- $title := .Get "title" | default "" -}}
+{{- $author := .Get "author" | default "" -}}
+{{- $image := .Get "image" | default "" -}}
+{{- $tag := site.Params.amazonAssociateTag -}}
+{{- $url := "" -}}
+{{- if $asin -}}
+  {{- $url = printf "https://www.amazon.co.jp/dp/%s?tag=%s&linkCode=osi" $asin $tag -}}
+{{- end -}}
+{{- $rel := "nofollow noopener sponsored" -}}
+<div class="amazon-card">
+  {{- if $image }}
+  <div class="amazon-card__image">
+    {{- if $url }}<a href="{{ $url }}" target="_blank" rel="{{ $rel }}">{{ end -}}
+    <img src="{{ $image }}" alt="{{ $title }}" loading="lazy">
+    {{- if $url }}</a>{{ end -}}
+  </div>
+  {{- end }}
+  <div class="amazon-card__body">
+    <p class="amazon-card__title">
+      {{- if $url }}<a href="{{ $url }}" target="_blank" rel="{{ $rel }}">{{ $title }}</a>
+      {{- else }}{{ $title }}{{ end -}}
+    </p>
+    {{- with $author }}<p class="amazon-card__author">{{ . }}</p>{{ end }}
+    <p class="amazon-card__meta"><span class="amazon-card__pr">広告</span>Amazon.co.jp</p>
+  </div>
+</div>

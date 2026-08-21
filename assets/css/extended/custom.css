@@ -1,0 +1,109 @@
+/* Styles for the shortcodes that replaced Hatena's embeds. Colours come from
+   PaperMod's variables so light and dark themes both work. */
+
+.amazon-card {
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+  margin: 24px 0;
+  padding: 16px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--entry);
+}
+
+.amazon-card__image {
+  flex: 0 0 auto;
+  width: 96px;
+}
+
+.amazon-card__image img {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  border-radius: 2px;
+}
+
+.amazon-card__body {
+  min-width: 0;
+  flex: 1 1 auto;
+}
+
+.amazon-card__title {
+  margin: 0 0 6px;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.amazon-card__title a {
+  box-shadow: none;
+}
+
+.amazon-card__author,
+.amazon-card__meta {
+  margin: 0;
+  font-size: 0.85em;
+  color: var(--secondary);
+}
+
+.amazon-card__meta {
+  margin-top: 8px;
+}
+
+.amazon-card__pr {
+  display: inline-block;
+  margin-right: 6px;
+  padding: 1px 6px;
+  border: 1px solid var(--border);
+  border-radius: 3px;
+  font-size: 0.85em;
+  color: var(--secondary);
+}
+
+.linkcard {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin: 24px 0;
+  padding: 14px 16px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--entry);
+  box-shadow: none;
+  word-break: break-all;
+}
+
+.linkcard__title {
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.linkcard__host {
+  font-size: 0.85em;
+  color: var(--secondary);
+}
+
+.spotify-embed {
+  margin: 24px 0;
+}
+
+/* Migrated entries lean on captions; Hatena rendered them under the image. */
+.post-content figure figcaption,
+.post-content img + em {
+  display: block;
+  margin-top: 6px;
+  font-size: 0.85em;
+  color: var(--secondary);
+  text-align: center;
+}
+
+@media (max-width: 480px) {
+  .amazon-card {
+    gap: 12px;
+    padding: 12px;
+  }
+
+  .amazon-card__image {
+    width: 72px;
+  }
+}

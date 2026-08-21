@@ -1,0 +1,107 @@
+baseURL = 'https://y0b1t2.github.io/'
+title = '箱庭療法記'
+theme = 'PaperMod'
+
+locale = 'ja'
+defaultContentLanguage = 'ja'
+# Japanese has no spaces: without this Hugo miscounts words and truncates
+# summaries mid-sentence.
+hasCJKLanguage = true
+timeZone = 'Asia/Tokyo'
+
+enableRobotsTXT = true
+enableInlineShortcodes = true
+# One entry is dated ahead of today on purpose (四半期の目標).
+buildFuture = true
+
+summaryLength = 70
+
+[pagination]
+  pagerSize = 20
+
+[permalinks]
+  posts = '/posts/:slug/'
+
+[taxonomies]
+  category = 'categories'
+  tag = 'tags'
+
+# PaperMod's client-side search reads this JSON index.
+[outputs]
+  home = ['HTML', 'RSS', 'JSON']
+
+[markup.goldmark.renderer]
+  # Matches Obsidian and the old Hatena entries, where a single newline is a
+  # line break. Turning this off would silently reflow every migrated post.
+  hardWraps = true
+  unsafe = true
+
+[markup.highlight]
+  noClasses = false
+  codeFences = true
+  guessSyntax = true
+
+[params]
+  description = 'みんなそれぞれ自分のようになるんです。'
+  author = 'よしざき'
+  amazonAssociateTag = 'yoshizaki1029-22'
+  defaultTheme = 'auto'
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowToc = true
+  TocOpen = false
+  ShowWordCount = false
+  hidemeta = false
+  comments = false
+
+  [params.homeInfoParams]
+    Title = '箱庭療法記'
+    Content = 'みんなそれぞれ自分のようになるんです。<br>小説を読んだり書いたりしています。'
+
+  [[params.socialIcons]]
+    name = 'mastodon'
+    url = 'https://fedibird.com/@y0b1t2'
+
+  [[params.socialIcons]]
+    name = 'rss'
+    url = 'index.xml'
+
+  [params.fuseOpts]
+    isCaseSensitive = false
+    shouldSort = true
+    threshold = 0.4
+    minMatchCharLength = 1
+    keys = ['title', 'permalink', 'summary', 'content']
+
+[[menu.main]]
+  identifier = 'posts'
+  name = '記事'
+  url = '/posts/'
+  weight = 10
+
+[[menu.main]]
+  identifier = 'categories'
+  name = 'カテゴリ'
+  url = '/categories/'
+  weight = 20
+
+[[menu.main]]
+  identifier = 'archives'
+  name = 'アーカイブ'
+  url = '/archives/'
+  weight = 30
+
+[[menu.main]]
+  identifier = 'search'
+  name = '検索'
+  url = '/search/'
+  weight = 40
+
+[[menu.main]]
+  identifier = 'about'
+  name = 'このブログについて'
+  url = '/about/'
+  weight = 50

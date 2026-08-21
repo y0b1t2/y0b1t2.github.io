@@ -1,0 +1,15 @@
+{{- /*
+  Spotify embed.  {{< spotify type="track" id="4cOdK2wGLETKBW3PvgPWqT" >}}
+  type is one of track / album / playlist / artist / episode / show.
+*/ -}}
+{{- $type := .Get "type" | default "track" -}}
+{{- $id := .Get "id" | default "" -}}
+{{- $height := cond (in (slice "track" "episode") $type) 152 352 -}}
+{{- if $id -}}
+<div class="spotify-embed">
+  <iframe src="https://open.spotify.com/embed/{{ $type }}/{{ $id }}"
+          width="100%" height="{{ $height }}" frameborder="0" loading="lazy"
+          allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+          title="Spotify {{ $type }}"></iframe>
+</div>
+{{- end -}}
