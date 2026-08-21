@@ -6,7 +6,8 @@ draft: false
 categories:
 - 04_オタク語り
 cover:
-  image: https://m.media-amazon.com/images/P/4040758617.09._SCLZZZZZZZ_.jpg
+  image: 20260821_205625.jpg
+  relative: true
   hiddenInSingle: true
 ---
 
@@ -16,3 +17,5 @@ Amazon：{{< amazon asin="4040758617" title="あそびのかんけい" author="�
 <span class="赤">文字色</span>変えるよ。
 tofubeatsが最高。：{{< youtube id="e5HBIKBWTZ4" loading="lazy" >}}
 これは**太字**だよ。これは*斜め文字*だよ。
+深崎暮人ガールズ、美人さんすぎ？
+![](20260821_205625.jpg)
