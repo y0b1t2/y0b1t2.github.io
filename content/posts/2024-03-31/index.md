@@ -7,6 +7,7 @@ categories:
 - 01_月報
 cover:
   image: f103cbcefdb8d5c4.jpg
+  relative: true
   hiddenInSingle: true
 ---
 

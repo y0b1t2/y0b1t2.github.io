@@ -7,6 +7,7 @@ categories:
 - 04_オタク語り
 cover:
   image: 20230717140207.png
+  relative: true
   hiddenInSingle: true
 ---
 

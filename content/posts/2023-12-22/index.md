@@ -7,6 +7,7 @@ categories:
 - 02_日記
 cover:
   image: 20231222230056.png
+  relative: true
   hiddenInSingle: true
 ---
 

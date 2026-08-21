@@ -7,6 +7,7 @@ categories:
 - 01_月報
 cover:
   image: 20251214152832.png
+  relative: true
   hiddenInSingle: true
 ---
 

@@ -7,6 +7,7 @@ categories:
 - 02_日記
 cover:
   image: 20260627102322.jpg
+  relative: true
   hiddenInSingle: true
 ---
 

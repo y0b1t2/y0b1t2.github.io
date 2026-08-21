@@ -7,6 +7,7 @@ categories:
 - 03_創作
 cover:
   image: 20240928091027.png
+  relative: true
   hiddenInSingle: true
 ---
 
