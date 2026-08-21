@@ -175,6 +175,49 @@
   margin-bottom: 0;
 }
 
+/* Inline colours, written as class names rather than style="color:…".
+
+   The names match the vault's .obsidian/snippets/blog-colors.css, so a draft
+   looks the same in Obsidian and here. Each name resolves to a different hue
+   per theme instead of the same one dimmed: a red dark enough to read on white
+   disappears into PaperMod's near-black, and vice versa. */
+
+:root {
+  --ink-red: #c0392b;
+  --ink-blue: #1a5fb4;
+  --ink-green: #1a7f37;
+  --ink-orange: #a15c07;
+  --ink-purple: #6b21a8;
+  --ink-gray: #6c6c6c;
+  --ink-mark: rgba(255, 213, 79, 0.5);
+}
+
+:root[data-theme="dark"] {
+  --ink-red: #ff8b7e;
+  --ink-blue: #79c0ff;
+  --ink-green: #7ee787;
+  --ink-orange: #ffb86c;
+  --ink-purple: #d2a8ff;
+  --ink-gray: #9b9c9d;
+  --ink-mark: rgba(255, 213, 79, 0.26);
+}
+
+.赤, .c-red { color: var(--ink-red); }
+.青, .c-blue { color: var(--ink-blue); }
+.緑, .c-green { color: var(--ink-green); }
+.橙, .c-orange { color: var(--ink-orange); }
+.紫, .c-purple { color: var(--ink-purple); }
+.灰, .c-gray { color: var(--ink-gray); }
+
+/* ==ハイライト==. The browser default is black on yellow, which is a hole in
+   the page in dark mode; inheriting the text colour keeps it a marker stroke. */
+mark {
+  padding: 0 2px;
+  border-radius: 2px;
+  background: var(--ink-mark);
+  color: inherit;
+}
+
 /* Migrated entries lean on captions; Hatena rendered them under the image. */
 .post-content figure figcaption,
 .post-content img + em {

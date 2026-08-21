@@ -28,6 +28,11 @@ summaryLength = 70
 [privacy.googleAnalytics]
   respectDoNotTrack = true
 
+# Serves embeds from youtube-nocookie.com, which holds off on the advertising
+# cookies until the reader actually presses play.
+[privacy.youtube]
+  privacyEnhanced = true
+
 [permalinks]
   posts = '/posts/:slug/'
 
@@ -44,6 +49,12 @@ summaryLength = 70
   # line break. Turning this off would silently reflow every migrated post.
   hardWraps = true
   unsafe = true
+
+# ==ハイライト== -> <mark>, the same notation Obsidian uses. Its siblings in
+# `extras` stay off: subscript's ~x~ collides with strikethrough, and
+# superscript's ^x^ collides with Obsidian's block references.
+[markup.goldmark.extensions.extras.mark]
+  enable = true
 
 [markup.highlight]
   noClasses = false
