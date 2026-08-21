@@ -4,7 +4,7 @@ date: '2024-08-17T22:11:46+09:00'
 slug: '2024-08-17'
 draft: false
 categories:
-- 創作
+- 03_創作
 ---
 
 <https://fedibird.com/@abe_dragonslay/112977356440212059/embed>

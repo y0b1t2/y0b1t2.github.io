@@ -4,7 +4,7 @@ date: '2024-07-02T20:59:00+09:00'
 slug: 2024-07-02-2
 draft: false
 categories:
-- 創作
+- 03_創作
 cover:
   image: https://m.media-amazon.com/images/I/41WqBnh5VRL._SL500_.jpg
   hiddenInSingle: true

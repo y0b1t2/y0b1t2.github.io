@@ -4,7 +4,7 @@ date: '2024-12-28T23:13:26+09:00'
 slug: 2024-12-28-3
 draft: false
 categories:
-- 日記
+- 02_日記
 cover:
   image: 20241223061943.jpg
   relative: true

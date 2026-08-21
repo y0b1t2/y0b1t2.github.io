@@ -4,7 +4,7 @@ date: '2024-12-02T00:27:57+09:00'
 slug: '2024-12-02'
 draft: false
 categories:
-- 創作
+- 03_創作
 cover:
   image: 20241201175243.jpg
   relative: true

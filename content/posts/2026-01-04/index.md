@@ -4,7 +4,7 @@ date: '2026-01-04T20:55:47+09:00'
 slug: '2026-01-04'
 draft: false
 categories:
-- オタク語り
+- 04_オタク語り
 cover:
   image: 20260104203454.png
   relative: true

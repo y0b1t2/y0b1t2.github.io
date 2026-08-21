@@ -4,7 +4,7 @@ date: '2025-02-21T00:21:36+09:00'
 slug: '2025-02-21'
 draft: false
 categories:
-- 日記
+- 02_日記
 cover:
   image: https://m.media-amazon.com/images/I/41Zw-iYHbUL._SL500_.jpg
   hiddenInSingle: true

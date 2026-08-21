@@ -4,7 +4,7 @@ date: '2025-02-02T12:05:12+09:00'
 slug: '2025-02-02'
 draft: false
 categories:
-- 月報
+- 01_月報
 cover:
   image: https://m.media-amazon.com/images/I/41858CrvARL._SL500_.jpg
   hiddenInSingle: true

@@ -4,7 +4,7 @@ date: '2026-08-19T20:36:21+09:00'
 slug: '2026-08-19'
 draft: false
 categories:
-- オタク語り
+- 04_オタク語り
 mastodon: https://fedibird.com/@y0b1t2/117131541490723829
 bluesky: https://bsky.app/profile/y0b1t2.bsky.social/post/3mtkvl3m44c2i
 cover:

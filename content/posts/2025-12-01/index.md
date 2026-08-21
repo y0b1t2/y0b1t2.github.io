@@ -4,7 +4,7 @@ date: '2025-12-01T22:11:50+09:00'
 slug: '2025-12-01'
 draft: false
 categories:
-- 創作
+- 03_創作
 cover:
   image: 20251201221057.jpg
   relative: true

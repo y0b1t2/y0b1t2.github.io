@@ -4,7 +4,7 @@ date: '2023-07-17T14:07:01+09:00'
 slug: '2023-07-17'
 draft: false
 categories:
-- オタク語り
+- 04_オタク語り
 cover:
   image: 20230717140207.png
   relative: true

@@ -4,7 +4,7 @@ date: '2025-06-01T14:51:03+09:00'
 slug: '2025-06-01'
 draft: false
 categories:
-- 月報
+- 01_月報
 cover:
   image: https://m.media-amazon.com/images/I/51Mlr-KszXL._SL500_.jpg
   hiddenInSingle: true

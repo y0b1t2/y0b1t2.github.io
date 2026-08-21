@@ -4,7 +4,7 @@ date: '2025-12-31T11:41:59+09:00'
 slug: 2025-12-31-4
 draft: false
 categories:
-- 月報
+- 01_月報
 cover:
   image: 20251231114638.png
   relative: true

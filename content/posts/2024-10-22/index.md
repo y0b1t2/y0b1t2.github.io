@@ -4,7 +4,7 @@ date: '2024-10-22T05:27:15+09:00'
 slug: '2024-10-22'
 draft: false
 categories:
-- オタク語り
+- 04_オタク語り
 cover:
   image: https://m.media-amazon.com/images/I/51zG9RKTqoS._SL500_.jpg
   hiddenInSingle: true

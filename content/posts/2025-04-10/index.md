@@ -4,7 +4,7 @@ date: '2025-04-10T22:59:06+09:00'
 slug: '2025-04-10'
 draft: false
 categories:
-- 日記
+- 02_日記
 cover:
   image: 20250410223824.jpg
   relative: true

@@ -4,7 +4,7 @@ date: '2023-10-31T20:02:18+09:00'
 slug: '2023-10-31'
 draft: false
 categories:
-- 月報
+- 01_月報
 cover:
   image: https://m.media-amazon.com/images/I/41DPJRVsYBL._SL500_.jpg
   hiddenInSingle: true
