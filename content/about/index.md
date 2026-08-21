@@ -18,6 +18,7 @@ url: /about/
 - Mastodon: <https://fedibird.com/@y0b1t2>
 - Bluesky: <https://bsky.app/profile/y0b1t2.bsky.social>
 - mixi2: <https://mixi.social/@y0b1t2>
+- mail: <yoshizaki.kenroh[at]gmail.com>
 
 ## カテゴリ
 
