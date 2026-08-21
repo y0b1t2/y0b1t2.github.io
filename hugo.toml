@@ -36,9 +36,11 @@ summaryLength = 70
 [permalinks]
   posts = '/posts/:slug/'
 
+# tag = 'tags' はあえて外してある。88記事のどれもタグを使っておらず、
+# 中身のない /tags/ を sitemap に出し続けることになるため。使いたくなったら
+# この行を戻す。戻し忘れて書き出すと export_hugo.py が止めてくれる。
 [taxonomies]
   category = 'categories'
-  tag = 'tags'
 
 # PaperMod's client-side search reads this JSON index.
 [outputs]
@@ -80,6 +82,13 @@ summaryLength = 70
   # Renders layouts/_partials/comments.html, which shows Mastodon and Bluesky
   # replies. Posts without a mastodon:/bluesky: field render nothing.
   comments = true
+
+  # Search Console の所有権確認。空のままなら <meta> は一切出ない。
+  # Search Console で「HTMLタグ」を選ぶと出てくる content="..." の中身だけを、
+  # ここの '' の中に貼る。<meta ...> ごと貼らないこと。
+  # 貼らずに済ませたいなら、GA4 (G-DBB85T2FQP) を使った確認方法でも通る。
+  [params.analytics.google]
+    SiteVerificationTag = ''
 
   [params.homeInfoParams]
     Title = '箱庭療法記'

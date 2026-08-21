@@ -1,0 +1,59 @@
+{{- /*
+  本文中の画像を、表示幅に合わせて縮めた WebP で配信する。
+
+  元のファイルには触らない。Vault から書き出された原寸（平均 467KB、最大
+  1.4MB）はリポジトリにそのまま残り、ここで作った縮小版だけが読者に届く。
+
+  遠隔の画像には一切手を出さない。Amazon の書影は m.media-amazon.com から
+  ホットリンクする決まりで、Hugo に処理させると手元へ落としてしまい、
+  アソシエイトの規約に反する。http(s) で始まる宛先はそのまま素通りさせる。
+
+  width/height を必ず書くのは、読み込み中に本文が飛び跳ねないため（CLS）。
+  最初の1枚だけ eager にしてあるのは、それが画面上部＝表示速度の測定対象
+  （LCP）になるから。lazy にすると自分で自分を遅くすることになる。
+*/ -}}
+
+{{- $dest := .Destination -}}
+{{- $alt := .PlainText -}}
+{{- $remote := or (hasPrefix $dest "http://") (hasPrefix $dest "https://") (hasPrefix $dest "//") -}}
+
+{{- $src := "" -}}
+{{- if not $remote -}}
+  {{- /* 書き出し側が空白を %20 に、括弧を %28 %29 に替えている。戻さないと見つからない。 */ -}}
+  {{- $src = .Page.Resources.Get (urls.Parse $dest).Path -}}
+{{- end -}}
+
+{{- /* GIF は動きが死ぬ、SVG は縮める意味がない。縮めるのは写真だけ。 */ -}}
+{{- if and $src (in (slice "image/jpeg" "image/png") $src.MediaType.Type) -}}
+
+  {{- /* 本文の幅は 720px。その2倍までを上限に、原寸を超えない範囲で用意する。 */ -}}
+  {{- /* math.Min は float を返すので、そのままだと %d に渡せない。 */ -}}
+  {{- $cap := int (math.Min $src.Width 1440) -}}
+  {{- $widths := slice -}}
+  {{- range (slice 480 720 1080) -}}
+    {{- if lt . $cap }}{{ $widths = $widths | append . }}{{ end -}}
+  {{- end -}}
+  {{- $widths = $widths | append $cap -}}
+
+  {{- $largest := $src.Resize (printf "%dx webp q80" $cap) -}}
+  {{- $srcset := slice -}}
+  {{- range $widths -}}
+    {{- $srcset = $srcset | append (printf "%s %dw" ($src.Resize (printf "%dx webp q80" .)).RelPermalink .) -}}
+  {{- end -}}
+
+  <img src="{{ $largest.RelPermalink }}"
+       srcset="{{ delimit $srcset ", " }}"
+       sizes="(min-width: 768px) 720px, 100vw"
+       width="{{ $largest.Width }}" height="{{ $largest.Height }}"
+       alt="{{ $alt }}"
+       {{ with .Title }}title="{{ . }}" {{ end -}}
+       loading="{{ if eq .Ordinal 0 }}eager{{ else }}lazy{{ end }}"
+       {{ if eq .Ordinal 0 }}fetchpriority="high" {{ end -}}
+       decoding="async">
+
+{{- else -}}
+  {{- /* 遠隔・GIF・SVG・見つからないもの。素のまま出す。 */ -}}
+  <img src="{{ $dest | safeURL }}" alt="{{ $alt }}"
+       {{ with .Title }}title="{{ . }}" {{ end -}}
+       loading="lazy" decoding="async">
+{{- end -}}
