@@ -1,0 +1,10 @@
+{{- /*
+  Footer link to the privacy notice, shown only once that page exists.
+  It is held back in the vault until reviewed, and a menu entry pointing at a
+  page that is not published would just be a 404 in the footer.
+*/ -}}
+{{- with site.GetPage "/privacy" }}
+<p class="footer-extra">
+  <a href="{{ .Permalink }}">{{ .Title }}</a>
+</p>
+{{- end }}

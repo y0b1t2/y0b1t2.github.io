@@ -19,6 +19,15 @@ summaryLength = 70
 [pagination]
   pagerSize = 20
 
+# Measurement ID (G-XXXXXXXXXX) from the GA4 property. Empty means no tag is
+# emitted at all. PaperMod only includes it in production builds, so `hugo
+# server` never sends anything.
+[services.googleAnalytics]
+  ID = ''
+
+[privacy.googleAnalytics]
+  respectDoNotTrack = true
+
 [permalinks]
   posts = '/posts/:slug/'
 
