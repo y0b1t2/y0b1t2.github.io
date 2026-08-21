@@ -5,6 +5,8 @@ slug: '2026-08-21'
 draft: false
 categories:
 - 02_日記
+mastodon: https://fedibird.com/@y0b1t2/117115879838769732
+bluesky: https://bsky.app/profile/y0b1t2.bsky.social/post/3mtlcrmulv62z
 cover:
   image: 20260821_205625 1.jpg
   relative: true
