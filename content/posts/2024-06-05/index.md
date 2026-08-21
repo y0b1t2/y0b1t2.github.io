@@ -5,6 +5,9 @@ slug: '2024-06-05'
 draft: false
 categories:
 - 02_日記
+cover:
+  image: https://m.media-amazon.com/images/I/416AfGYs5WL._SL500_.jpg
+  hiddenInSingle: true
 ---
 
 ジムでクロストレーナーを必死で漕ぎながらハヌマーンの「幸福のしっぽ」を聴いていたら全てが理解（わか）りました。

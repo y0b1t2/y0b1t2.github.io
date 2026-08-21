@@ -6,7 +6,7 @@ draft: false
 categories:
 - 02_日記
 cover:
-  image: 20250924191930.jpg
+  image: 20251226171132.jpg
   relative: true
   hiddenInSingle: true
 ---

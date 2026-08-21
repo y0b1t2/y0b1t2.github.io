@@ -5,6 +5,9 @@ slug: '2025-02-28'
 draft: false
 categories:
 - 01_月報
+cover:
+  image: https://m.media-amazon.com/images/I/51C4A0br3ML._SL500_.jpg
+  hiddenInSingle: true
 ---
 
 ## 目次

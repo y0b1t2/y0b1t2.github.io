@@ -5,6 +5,9 @@ slug: '2025-05-19'
 draft: false
 categories:
 - 04_オタク語り
+cover:
+  image: https://m.media-amazon.com/images/I/51Mlr-KszXL._SL500_.jpg
+  hiddenInSingle: true
 ---
 
 大いにネタバレを含みます。

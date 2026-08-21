@@ -5,6 +5,9 @@ slug: '2026-03-31'
 draft: false
 categories:
 - 01_月報
+cover:
+  image: https://m.media-amazon.com/images/I/41E6h1ZbLsL._SL500_.jpg
+  hiddenInSingle: true
 ---
 
 ## 目次

@@ -5,6 +5,9 @@ slug: '2025-02-21'
 draft: false
 categories:
 - 02_日記
+cover:
+  image: https://m.media-amazon.com/images/I/41Zw-iYHbUL._SL500_.jpg
+  hiddenInSingle: true
 ---
 
 最近あった良かったことを挙げてくスレです。

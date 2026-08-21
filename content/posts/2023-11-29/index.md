@@ -5,6 +5,9 @@ slug: '2023-11-29'
 draft: false
 categories:
 - 01_月報
+cover:
+  image: https://m.media-amazon.com/images/I/51mbJmls2hL._SL500_.jpg
+  hiddenInSingle: true
 ---
 
 本の感想のリアルタイムなまとめは Mastodon 限定コンテンツですが、外向けにもまとめておきたくなったので。定期的にやるかは不明です。

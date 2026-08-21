@@ -6,7 +6,7 @@ draft: false
 categories:
 - 04_オタク語り
 cover:
-  image: 20260104200016.png
+  image: 20260104203454.png
   relative: true
   hiddenInSingle: true
 ---

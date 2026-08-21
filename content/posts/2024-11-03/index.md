@@ -5,6 +5,9 @@ slug: '2024-11-03'
 draft: false
 categories:
 - 04_オタク語り
+cover:
+  image: https://m.media-amazon.com/images/I/51f4FW67tiL._SL500_.jpg
+  hiddenInSingle: true
 ---
 
 アニメの「聖地」の一つがなくなるらしい。

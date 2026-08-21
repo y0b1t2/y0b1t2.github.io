@@ -5,6 +5,9 @@ slug: '2026-02-28'
 draft: false
 categories:
 - 04_オタク語り
+cover:
+  image: https://m.media-amazon.com/images/I/51epyw1R23L._SL500_.jpg
+  hiddenInSingle: true
 ---
 
 どうも、よしざきです。

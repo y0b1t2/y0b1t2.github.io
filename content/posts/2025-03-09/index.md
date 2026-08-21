@@ -5,6 +5,9 @@ slug: '2025-03-09'
 draft: false
 categories:
 - 03_創作
+cover:
+  image: https://m.media-amazon.com/images/I/41BaAEAMKyL._SL500_.jpg
+  hiddenInSingle: true
 ---
 
 はっきり言って、これを読んで実践できるやつは読まずともとっくに実践できてるし、「ほへ～」とか感心しながら読んでたやつ（要するに、おれ）は一生できない。だから、役に立つかは疑わしい。ただ、疑わしいからこそ繰り返し読める一冊になるし、座右の一冊になるだろう。

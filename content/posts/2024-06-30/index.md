@@ -5,6 +5,9 @@ slug: '2024-06-30'
 draft: false
 categories:
 - 01_月報
+cover:
+  image: https://m.media-amazon.com/images/I/51NmO9p-MXL._SL500_.jpg
+  hiddenInSingle: true
 ---
 
 1. 趣味

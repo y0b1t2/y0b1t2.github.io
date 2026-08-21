@@ -5,6 +5,9 @@ slug: '2023-12-28'
 draft: false
 categories:
 - 02_日記
+cover:
+  image: https://m.media-amazon.com/images/I/51U0JIcFS+L._SL500_.jpg
+  hiddenInSingle: true
 ---
 
 今年は、以下の5テーマに沿った読書がメインでした。（90冊前後）。

@@ -5,6 +5,9 @@ slug: 2024-07-02-2
 draft: false
 categories:
 - 03_創作
+cover:
+  image: https://m.media-amazon.com/images/I/41WqBnh5VRL._SL500_.jpg
+  hiddenInSingle: true
 ---
 
 私のお話作りのバイブルである『演劇入門』（平田オリザ）を、もしもエンタメ小説に適用するとしたらこうだろう、というビジョンを言語化できたので残しておきます。『演劇入門』を読了している前提で書きます。

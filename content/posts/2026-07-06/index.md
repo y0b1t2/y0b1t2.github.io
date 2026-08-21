@@ -6,7 +6,7 @@ draft: false
 categories:
 - 01_月報
 cover:
-  image: 20260503040909.jpg
+  image: 20260701235513.jpg
   relative: true
   hiddenInSingle: true
 ---
