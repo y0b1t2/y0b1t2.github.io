@@ -1,0 +1,36 @@
+{{- /*
+  Comments, sourced from replies on Mastodon and Bluesky.
+
+  A post opts in by naming the announcement it was shared as:
+
+      mastodon: https://fedibird.com/@y0b1t2/115000000000000000
+      bluesky:  https://bsky.app/profile/y0b1t2.bsky.social/post/3l...
+
+  Readers reply where they already are, so nobody has to open an account to
+  say something. Posts without either field render nothing at all.
+*/ -}}
+{{- $mastodon := .Params.mastodon -}}
+{{- $bluesky := .Params.bluesky -}}
+{{- if or $mastodon $bluesky -}}
+<section class="social-comments"
+  {{- with $mastodon }} data-mastodon="{{ . }}"{{ end }}
+  {{- with $bluesky }} data-bluesky="{{ . }}"{{ end }}>
+  <h2 class="social-comments__heading">コメント</h2>
+  <p class="social-comments__lead">
+    下の投稿に返信すると、この欄に表示されます。
+  </p>
+  <p class="social-comments__actions">
+    {{- with $mastodon }}
+    <a class="social-comments__reply" href="{{ . }}" target="_blank" rel="noopener">Mastodon で返信</a>
+    {{- end }}
+    {{- with $bluesky }}
+    <a class="social-comments__reply" href="{{ . }}" target="_blank" rel="noopener">Bluesky で返信</a>
+    {{- end }}
+  </p>
+  <div class="social-comments__list" aria-live="polite">
+    <p class="social-comments__status">読み込み中…</p>
+  </div>
+</section>
+{{- $js := resources.Get "js/social-comments.js" | minify | fingerprint -}}
+<script defer src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}" crossorigin="anonymous"></script>
+{{- end -}}

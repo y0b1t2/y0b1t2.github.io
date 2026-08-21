@@ -55,7 +55,9 @@ summaryLength = 70
   TocOpen = false
   ShowWordCount = false
   hidemeta = false
-  comments = false
+  # Renders layouts/_partials/comments.html, which shows Mastodon and Bluesky
+  # replies. Posts without a mastodon:/bluesky: field render nothing.
+  comments = true
 
   [params.homeInfoParams]
     Title = '箱庭療法記'

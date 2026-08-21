@@ -87,6 +87,94 @@
   margin: 24px 0;
 }
 
+/* Comments pulled from Mastodon and Bluesky replies. */
+
+.social-comments {
+  margin-top: 48px;
+  padding-top: 24px;
+  border-top: 1px solid var(--border);
+}
+
+.social-comments__heading {
+  margin: 0 0 8px;
+  font-size: 1.2rem;
+}
+
+.social-comments__lead,
+.social-comments__status {
+  margin: 0 0 12px;
+  font-size: 0.9em;
+  color: var(--secondary);
+}
+
+.social-comments__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 0 0 24px;
+}
+
+.social-comments__reply {
+  padding: 6px 14px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--entry);
+  font-size: 0.9em;
+  box-shadow: none;
+}
+
+.comment {
+  display: flex;
+  gap: 12px;
+  padding: 14px 0;
+  border-top: 1px solid var(--border);
+}
+
+.comment__avatar {
+  flex: 0 0 auto;
+  width: 40px;
+  height: 40px;
+  margin: 0;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.comment__main {
+  min-width: 0;
+  flex: 1 1 auto;
+}
+
+.comment__head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 8px;
+  margin: 0 0 4px;
+}
+
+.comment__name {
+  font-weight: 600;
+  box-shadow: none;
+}
+
+.comment__handle,
+.comment__meta {
+  font-size: 0.82em;
+  color: var(--secondary);
+}
+
+.comment__body {
+  overflow-wrap: anywhere;
+}
+
+.comment__body p {
+  margin: 0 0 6px;
+}
+
+.comment__body p:last-child {
+  margin-bottom: 0;
+}
+
 /* Migrated entries lean on captions; Hatena rendered them under the image. */
 .post-content figure figcaption,
 .post-content img + em {
