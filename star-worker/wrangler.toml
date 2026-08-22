@@ -1,0 +1,16 @@
+name = "blog-stars"
+main = "src/index.js"
+compatibility_date = "2025-06-01"
+
+# `npm run kv`（= wrangler kv namespace create STARS）の出力に出てくる
+# id をここに貼る。貼るまではデプロイしても動かない。
+kv_namespaces = [
+  { binding = "STARS", id = "3333af8240cd45e5889f5432e5ebc29f" }
+]
+
+[vars]
+# 許可するオリジン。ブログの baseURL と完全一致（末尾スラッシュ無し）。
+ALLOWED_ORIGIN = "https://y0b1t2.github.io"
+# SALT（IPハッシュ用の塩）は平文で置かず、Cloudflare の secret にしてある:
+#   npx wrangler secret put SALT
+# 変更したい時は上記コマンドで再設定する（コードは env.SALT を読む）。

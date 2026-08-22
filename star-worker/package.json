@@ -1,0 +1,13 @@
+{
+  "name": "blog-stars",
+  "private": true,
+  "description": "はてなスター的リアクションの保存API (Cloudflare Workers + KV)",
+  "scripts": {
+    "kv": "wrangler kv namespace create STARS",
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "^4"
+  }
+}

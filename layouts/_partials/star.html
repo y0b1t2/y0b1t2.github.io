@@ -1,0 +1,17 @@
+{{- /*
+  はてなスター的リアクションボタン。数は Cloudflare Workers + KV に保存する
+  (star-worker/ を参照)。保存先URLは hugo.toml の [params] starEndpoint に設定し、
+  空のあいだは何も描画しない（＝デプロイ前でも表示が壊れない）。
+  記名は任意。名前欄が空なら匿名スター。
+*/ -}}
+{{- with site.Params.starEndpoint -}}
+<section class="stars" data-endpoint="{{ . }}" data-slug="{{ $.RelPermalink }}">
+  <div class="stars__row">
+    <button type="button" class="stars__btn" aria-label="スターを付ける">★&nbsp;<span class="stars__count" aria-live="polite">…</span></button>
+    <input type="text" class="stars__name" maxlength="40" placeholder="名前（任意・空なら匿名）" aria-label="名前（任意）">
+  </div>
+  <div class="stars__names" aria-live="polite"></div>
+</section>
+{{- $js := resources.Get "js/stars.js" | minify | fingerprint -}}
+<script defer src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}" crossorigin="anonymous"></script>
+{{- end -}}

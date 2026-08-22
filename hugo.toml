@@ -83,6 +83,12 @@ summaryLength = 70
   # replies. Posts without a mastodon:/bluesky: field render nothing.
   comments = true
 
+  # はてなスター的リアクションの保存先（Cloudflare Worker のURL、末尾スラッシュ無し）。
+  # 空のあいだはボタン自体が描画されないので、デプロイ前でも表示は壊れない。
+  # star-worker/ をデプロイして得たURLを貼ると、投稿ページに表示が出る。
+  # 例: 'https://blog-stars.xxxx.workers.dev'
+  starEndpoint = 'https://blog-stars.blog-stars.workers.dev'
+
   # Search Console の所有権確認。空のままなら <meta> は一切出ない。
   # Search Console で「HTMLタグ」を選ぶと出てくる content="..." の中身だけを、
   # ここの '' の中に貼る。<meta ...> ごと貼らないこと。

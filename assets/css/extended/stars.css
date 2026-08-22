@@ -1,0 +1,56 @@
+/* はてなスター的リアクション。PaperMod のテーマ変数を使うのでライト/ダークに追従する。 */
+.stars {
+  margin: 2rem 0;
+}
+.stars__row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+}
+.stars__btn {
+  font-size: 1rem;
+  line-height: 1;
+  padding: 0.5em 0.9em;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: var(--entry);
+  color: var(--secondary);
+  cursor: pointer;
+  transition: color 0.15s, border-color 0.15s, transform 0.1s;
+}
+.stars__btn:hover {
+  transform: translateY(-1px);
+}
+.stars__btn.is-starred {
+  color: #f5a623;
+  border-color: #f5a623;
+  cursor: default;
+}
+.stars__count {
+  font-variant-numeric: tabular-nums;
+}
+.stars__name {
+  padding: 0.45em 0.7em;
+  font-size: 0.9rem;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--theme);
+  color: var(--primary);
+}
+.stars__name:disabled {
+  opacity: 0.6;
+}
+.stars__names {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  margin-top: 0.6rem;
+}
+.stars__chip {
+  font-size: 0.8rem;
+  color: var(--secondary);
+  background: var(--tertiary);
+  padding: 0.2em 0.6em;
+  border-radius: 999px;
+}

@@ -9,6 +9,9 @@
   Readers reply where they already are, so nobody has to open an account to
   say something. Posts without either field render nothing at all.
 */ -}}
+{{- /* はてなスター的リアクション（投稿ページのみ）。hugo.toml の starEndpoint を
+       設定すると star.html が表示される。詳細は star-worker/README.md。 */ -}}
+{{- if eq .Section "posts" }}{{ partial "star.html" . }}{{ end }}
 {{- $mastodon := .Params.mastodon -}}
 {{- $bluesky := .Params.bluesky -}}
 {{- if or $mastodon $bluesky -}}
