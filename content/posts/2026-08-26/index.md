@@ -9,6 +9,7 @@ mastodon: https://fedibird.com/web/statuses/117157040092222377
 bluesky: https://bsky.app/profile/y0b1t2.bsky.social/post/3mtw7q6lv4223
 cover:
   image: https://m.media-amazon.com/images/P/B000ZZFYT2.09._SCLZZZZZZZ_.jpg
+  alt: Ｗとの思い出
   hiddenInSingle: true
 ---
 
