@@ -5,6 +5,7 @@ slug: '2026-08-31'
 draft: false
 categories:
 - 01_月報
+mastodon: https://fedibird.com/web/statuses/117190315159834088
 cover:
   image: 20260829_152515.jpg
   relative: true
