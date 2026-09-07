@@ -6,6 +6,7 @@ draft: false
 categories:
 - 01_月報
 mastodon: https://fedibird.com/web/statuses/117190315159834088
+bluesky: https://bsky.app/profile/y0b1t2.bsky.social/post/3mueyocwql22t
 cover:
   image: 20260829_152515.jpg
   relative: true
