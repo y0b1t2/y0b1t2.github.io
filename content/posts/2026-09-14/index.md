@@ -5,6 +5,7 @@ slug: '2026-09-14'
 draft: false
 categories:
 - 04_オタク語り
+bluesky: https://bsky.app/profile/y0b1t2.bsky.social/post/3mvi35oqzzs2m
 cover:
   image: 20260914_201811~2.jpg
   relative: true
