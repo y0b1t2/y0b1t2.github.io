@@ -5,6 +5,7 @@ slug: '2026-09-14'
 draft: false
 categories:
 - 04_オタク語り
+mastodon: https://fedibird.com/@y0b1t2/117269307594890721
 bluesky: https://bsky.app/profile/y0b1t2.bsky.social/post/3mvi35oqzzs2m
 cover:
   image: 20260914_201811~2.jpg
@@ -13,7 +14,7 @@ cover:
 ---
 
 生成AIによる全面的な支援を受けたトレーディングシステムを運用しています。
-AIは収益化できるトレーディングシステムは作れる。そして、勝てます。
+AIは収益化できるトレーディングシステムは作れる。つまり、勝てます。
 <span class="赤">AI投資は、勝てまあす！！！！！！</span>
 というのが、私のスタンスです。
 2026年6月からノーコードで作ったシステム、勝ちまくりです。
