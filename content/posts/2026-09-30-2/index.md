@@ -5,6 +5,7 @@ slug: 2026-09-30-2
 draft: false
 categories:
 - 03_創作
+mastodon: https://fedibird.com/@y0b1t2/117355209689633130
 cover:
   image: 20260930_ガガガ応募画面_番号消し.jpg
   relative: true
