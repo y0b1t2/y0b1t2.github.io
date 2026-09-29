@@ -6,6 +6,7 @@ draft: false
 categories:
 - 03_創作
 mastodon: https://fedibird.com/@y0b1t2/117355209689633130
+bluesky: https://bsky.app/profile/y0b1t2.bsky.social/post/3mwo7u3nwsc2r
 cover:
   image: 20260930_ガガガ応募画面_番号消し.jpg
   relative: true
