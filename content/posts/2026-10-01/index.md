@@ -5,6 +5,7 @@ slug: '2026-10-01'
 draft: false
 categories:
 - 01_月報
+mastodon: https://fedibird.com/@y0b1t2/117360624078078057
 cover:
   image: スヨリト.jpg
   relative: true
