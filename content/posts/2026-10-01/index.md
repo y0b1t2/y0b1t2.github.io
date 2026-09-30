@@ -6,6 +6,7 @@ draft: false
 categories:
 - 01_月報
 mastodon: https://fedibird.com/@y0b1t2/117360624078078057
+bluesky: https://bsky.app/profile/y0b1t2.bsky.social/post/3mwqn6sqhcg2y
 cover:
   image: スヨリト.jpg
   relative: true
