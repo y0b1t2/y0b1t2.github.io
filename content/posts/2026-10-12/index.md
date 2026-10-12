@@ -5,6 +5,7 @@ slug: '2026-10-12'
 draft: false
 categories:
 - 03_創作
+mastodon: https://fedibird.com/@y0b1t2/117428318627216799
 bluesky: https://bsky.app/profile/y0b1t2.bsky.social/post/3mxootbkhvu2n
 cover:
   image: 1.png
