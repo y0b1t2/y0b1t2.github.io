@@ -5,6 +5,7 @@ slug: '2026-11-02'
 draft: false
 categories:
 - 01_月報
+bluesky: https://bsky.app/profile/y0b1t2.bsky.social/post/3mzdjd77ze22d
 cover:
   image: 20261017_180341.jpg
   relative: true
